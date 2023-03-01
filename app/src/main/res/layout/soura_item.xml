@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="2dp"
+    android:background="@drawable/soura_item_background"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/soura_id"
+        android:layout_width="25dp"
+        android:layout_height="40dp"
+
+        android:background="@drawable/id_soura_background"
+        android:gravity="center"
+        android:text="١"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/soura_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/amiri_regular"
+        android:text="الْفَاتِحَة"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/soura_id"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nb_eya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aref_ruqa_regular"
+        android:text="٧ أيات"
+        android:layout_marginBottom="-3dp"
+        android:textColor="@color/primary_color"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/soura_name" />
+
+
+    <TextView
+        android:id="@+id/type_soura"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/type_soura_background"
+        android:fontFamily="@font/aref_ruqa_regular"
+        android:text="مكية"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

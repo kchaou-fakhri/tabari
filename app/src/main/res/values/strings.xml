@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">تفسير الطبري</string>
+    <string name="app_name">تفسير ابن كثير</string>
+    <string name="app_name_logo">تفسير ابن كثير</string>
+    <string name="tv_title">Learn Bottom Sheet</string>
+    <string name="tv_description">test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
